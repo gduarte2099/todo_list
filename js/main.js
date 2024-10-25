@@ -15,7 +15,7 @@ function listarTareas(busqueda) {
       // Limpiar el resultado previo
       resultado.innerHTML = "";
 
-      // Si hay resultados, creamos las filas de la tabla
+      // Si hay resultados, creamos las filas de la tabla (div)
       response.forEach((data) => {
         resultado.innerHTML += `
     <div class="div-titles">

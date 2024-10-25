@@ -1,9 +1,9 @@
 @media (max-width: 1200px) {
-  .card-right {
+  .card-left {
     width: 30%;
   }
 
-  .card-left {
+  .card-right {
     width: 70%;
   }
 
@@ -19,12 +19,12 @@
     padding: 40px;
   }
 
-  .card-right {
+  .card-left {
     width: 100%;
     margin-bottom: 10px;
   }
 
-  .card-left {
+  .card-right {
     width: 100%;
   }
 }

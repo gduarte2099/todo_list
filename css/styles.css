@@ -42,11 +42,11 @@ section {
   padding: 20px;
 }
 
-.card-right {
+.card-left {
   width: 40%;
 }
 
-.card-left {
+.card-right {
   width: 60%;
 }
 

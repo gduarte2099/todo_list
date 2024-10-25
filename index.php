@@ -10,9 +10,11 @@
 </head>
 
 <body>
+  <!-- main div -->
   <main class="container pt-5">
 
-    <section class="card-right">
+    <!--seccion izquierda -->
+    <section class="card-left">
       <div class="card-header bg-primary">
         <h3 class="text-center">Registrar Tarea</h3>
       </div>
@@ -38,7 +40,8 @@
       </div>
     </section>
 
-    <!-- SECCION BUSCAR y tabla -->
+    <!-- seccion derecha -->
+    <!-- buscar -->
     <section class="card-left">
       <div class="card-body ">
         <form action="" method="post">
@@ -49,7 +52,7 @@
         </form>
       </div>
 
-
+      <!-- tabla -->
       <div class="div-table">
         <div class="div-titles">
           <div>
@@ -74,9 +77,8 @@
       </div>
     </section>
 
-
-
     <script src="js/main.js"></script>
+    <!-- utlizaremos SweetAlert2 para mostrar las notificaciones y warnings" -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   </main>
 
