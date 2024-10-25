@@ -18,20 +18,20 @@ function listarTareas(busqueda) {
       // Si hay resultados, creamos las filas de la tabla
       response.forEach((data) => {
         resultado.innerHTML += `
-    <tr>
-        <td>${data.id}</td>
-        <td>${data.nombre}</td>
-        <td>${data.descripcion}</td>
-        <td>${data.completada ? "Completada" : "Pendiente"}</td>
-        <td class='custom-td'>
+    <div class="div-titles">
+        <div>${data.id}</div>
+        <div>${data.nombre}</div>
+        <div>${data.descripcion}</div>
+        <div>${data.completada ? "Completada" : "Pendiente"}</div>
+        <div>
             <button type='button' class='custom-btn bg-yellow' onclick="editarTarea('${
               data.id
             }')">Editar</button>
             <button type='button' class='custom-btn bg-red' onclick="eliminarTarea('${
               data.id
             }')">Eliminar</button>
-        </td>        
-    </tr>
+        </div>        
+    </div>
 `;
       });
     })
