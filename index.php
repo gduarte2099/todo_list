@@ -42,7 +42,7 @@
 
     <!-- seccion derecha -->
     <!-- buscar -->
-    <section class="card-left">
+    <section class="card-right">
       <div class="card-body ">
         <form action="" method="post">
           <div class="input-box">
