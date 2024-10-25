@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+  .card-right {
+    width: 30%;
+  }
+
+  .card-left {
+    width: 70%;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .card-right {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .card-left {
+    width: 100%;
+  }
+}
