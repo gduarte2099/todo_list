@@ -8,7 +8,7 @@ if (isset($_POST)) {
 
     require("conexion.php");
 
-    if (empty($_POST['idp'])) {
+    if (empty($_POST['idt'])) {
         $query = $pdo->prepare("INSERT INTO tareas (nombre, descripcion, completada) VALUES (:nom, :dsc, :comp)");
         $query->bindParam(":nom", $nombre);
         $query->bindParam(":dsc", $descripcion);
@@ -17,7 +17,7 @@ if (isset($_POST)) {
         $pdo = null;
         echo "ok";
     } else {
-        $id = $_POST['idp'];
+        $id = $_POST['idt'];
         $query = $pdo->prepare("UPDATE tareas SET nombre = :nom, descripcion = :dsc, completada = :comp WHERE id = :id");
         $query->bindParam(":nom", $nombre);
         $query->bindParam(":dsc", $descripcion);

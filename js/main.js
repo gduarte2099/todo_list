@@ -63,7 +63,7 @@ registrar.addEventListener("click", () => {
           timer: 1500,
         });
         registrar.value = "Registrar";
-        idp.value = "";
+        idt.value = "";
         listarTareas();
         frm.reset();
       }
@@ -110,7 +110,7 @@ function editarTarea(id) {
   })
     .then((response) => response.json())
     .then((response) => {
-      idp.value = response.id;
+      idt.value = response.id;
       nombre.value = response.nombre;
       descripcion.value = response.descripcion;
       completada.checked = response.completada;

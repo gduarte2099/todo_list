@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRUD php - API fetch</title>
+  <title>todo_api</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/media-query.css">
 </head>
@@ -20,7 +20,7 @@
       </div>
       <div class="card-body mt-10">
         <form action="" method="post" id="frm">
-          <input type="hidden" name="idp" id="idp" value="">
+          <input type="hidden" name="idt" id="idt" value="">
           <div class="input-box">
             <label for="">Nombre</label>
             <input type="text" name="nombre" id="nombre" placeholder="Nombre..." class="form-input">
