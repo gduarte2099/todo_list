@@ -22,14 +22,13 @@ body {
   background-color: #f4f4f4;
 }
 
+
+
+/**secciones principales**/
 .container {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-}
-
-/**secciones principales**/
-main {
   display: flex;
   justify-content: space-between;
 }
@@ -44,6 +43,10 @@ section {
 
 .card-left {
   width: 40%;
+  height: 420px;
+  /* Ajusta esta altura según tus necesidades */
+  overflow-y: hidden;
+  /* Añade scroll si el contenido excede la altura fija */
 }
 
 .card-right {
