@@ -113,6 +113,7 @@ function editarTarea(id) {
       idp.value = response.id;
       nombre.value = response.nombre;
       descripcion.value = response.descripcion;
+      completada.checked = response.completada;
       registrar.value = "Actualizar";
     });
 }
