@@ -110,11 +110,17 @@ function editarTarea(id) {
   })
     .then((response) => response.json())
     .then((response) => {
+      // asigna valores al formulario
       idt.value = response.id;
       nombre.value = response.nombre;
       descripcion.value = response.descripcion;
       completada.checked = response.completada;
       registrar.value = "Actualizar";
+
+      // aplica la clase para cambiar el color
+      nombre.classList.add("text-red");
+      descripcion.classList.add("text-red");
+      completada.classList.add("text-red");
     });
 }
 

@@ -107,12 +107,12 @@ input[type="checkbox"]:checked:after {
   /*para que se pinte dentro del cuadtro*/
   width: 11px;
   height: 11px;
-  color: #2b5897;
+  color: inherit;
   position: absolute;
   top: 0%;
   left: 50%;
-  transform: translate(-50%, -40%);
   /* Centrar el check */
+  transform: translate(-50%, -40%);
 }
 
 
