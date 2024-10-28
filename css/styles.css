@@ -22,11 +22,9 @@ body {
   background-color: #f4f4f4;
 }
 
-
-
 /**secciones principales**/
 .container {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   padding: 20px;
   display: flex;
@@ -196,6 +194,10 @@ input[type="checkbox"]:checked:after {
 /**estilos extras*/
 .flex {
   display: flex;
+}
+
+.text-red {
+  color: rgb(168, 2, 2);
 }
 
 .mr-15 {

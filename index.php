@@ -34,7 +34,7 @@
             <input type="checkbox" name="completada" id="completada" value="1">
           </div>
           <div class="input-box">
-            <input type="button" value="Registrar" id="registrar" class="btn btn-primary btn-block">
+            <input type="button" value="Registrar" id="registrar" class="btn btn-block">
           </div>
         </form>
       </div>
@@ -47,7 +47,7 @@
         <form action="" method="post">
           <div class="input-box">
             <label for="buscar">Buscar:</label>
-            <input type="text" name="buscar" id="buscar" placeholder="Buscar...">
+            <input type="text" name="buscar" id="buscar" placeholder="Buscar..." class="form-input">
           </div>
         </form>
       </div>
