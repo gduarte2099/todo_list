@@ -175,6 +175,8 @@ input[type="checkbox"]:checked:after {
   padding: 10px;
   box-sizing: border-box;
   border-bottom: 1px solid #0056b3;
+  overflow-wrap: break-word; /* Permite que el texto se ajuste en varias líneas */
+  word-break: break-word; /* Corta las palabras largas para que se ajusten dentro del contenedor */
 }
 
 .div-titles:hover {
