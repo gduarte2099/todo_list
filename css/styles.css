@@ -184,8 +184,7 @@ input[type="checkbox"]:checked:after {
 }
 
 .div-titles div:nth-child(1) {
-  flex: 0.1;
-  min-width: 10px !important;
+  flex: 0.5;
 }
 
 .div-titles div:nth-child(3) {
